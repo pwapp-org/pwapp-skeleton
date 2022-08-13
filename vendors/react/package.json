@@ -1,0 +1,9 @@
+{
+  "name": "@vendors/react",
+  "main": "react.mjs",
+  "packageManager": "yarn@4.0.0-rc.14",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

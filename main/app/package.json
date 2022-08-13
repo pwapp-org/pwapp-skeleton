@@ -1,0 +1,7 @@
+{
+  "name": "@main/app",
+  "dependencies": {
+    "@vendors/react": "workspace:^"
+  },
+  "packageManager": "yarn@4.0.0-rc.14"
+}
