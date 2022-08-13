@@ -15,7 +15,7 @@ console.log(`Starting ${isProd ? 'production' : 'dev' } build`)
 
 await buildHelper({
   name: '@main/app',
-  entryPoints: ['main/app/index.mjs'],
+  entryPoints: ['main/app/client.mjs'],
   outDir: 'public/',
   isProd
 })

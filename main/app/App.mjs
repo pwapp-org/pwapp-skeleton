@@ -1,4 +1,14 @@
-import { React } from '@vendors/react'
+import {
+  React,
+  Routes, Route,
+  HelmetProvider
+} from '@vendors/react'
 
-export const App = () =>
-  (<h1>Hello PWA Plus Plus</h1>)
+import { Home } from '@pkgs/home'
+
+export const App = ({ helmetContext = {} }) =>
+  (<HelmetProvider context={helmetContext}>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
+  </HelmetProvider>)

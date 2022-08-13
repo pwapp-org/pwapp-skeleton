@@ -5,17 +5,19 @@ A skeleton of the pwapp
 ## Features
 
 - Yarn v4 [x]
-- Serverless [x] (CI/CD)
 - Esbuild [x]
+- Serverless [x]
 - Smart bundle splitting [x]
-- Seo []
+- Seo [x]
+- Auth Context []
+- Preact []
 - Lazy Loading []
 - SSR []
 - Lazy-SSR []
 - Critical CSS []
-- Auth Context []
 - Analytics []
 - Service Worker []
+- CI/CD []
 - Benchmarks []
 - Tests []
 - Lint []

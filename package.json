@@ -14,7 +14,7 @@
     "libs/components/*",
     "libs/layouts/*",
     "libs/*",
-    "main",
+    "main/*",
     "pkgs/*",
     "vendors/*"
   ],
