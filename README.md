@@ -6,6 +6,7 @@ A skeleton of the pwapp
 
 - Yarn v4 [x]
 - Esbuild [x]
+- - Sourcemaps []
 - Serverless [x]
 - Smart bundle splitting [x]
 - Seo [x]
@@ -22,3 +23,5 @@ A skeleton of the pwapp
 - Tests []
 - Lint []
 - Typescript []
+- Feature flags []
+- Internazionalization

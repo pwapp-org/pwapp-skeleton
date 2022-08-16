@@ -1,20 +1,12 @@
-export * as React from 'react'
+// Common deps
+export * from './common.mjs'
 
-
-// Client
-
+// Client deps
 export { createRoot } from 'react-dom/client'
 
 export {
   BrowserRouter
 } from 'react-router-dom'
 
-// Server
 
-// Common
 
-export {
-  Routes, Route
-} from 'react-router-dom'
-
-export { Helmet, HelmetProvider } from 'react-helmet-async'
